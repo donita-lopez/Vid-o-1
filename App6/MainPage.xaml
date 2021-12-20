@@ -30,13 +30,12 @@
         </RelativePanel>
         
         
-        <ScrollViewer Grid.Column="1">
+        <ScrollViewer Grid.Column="1" Background="Black">
 
             <StackPanel>
 
                 <Grid>
-                    <Grid.RowDefinitions>
-
+                    <Grid.RowDefinitions >
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
@@ -54,6 +53,7 @@
                                Margin="50"
                                FontWeight="Bold"
                                Foreground="Coral"
+                               
                                />
                     <TextBlock Grid.Row ="1"
                                FontSize="25"
